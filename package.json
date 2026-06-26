@@ -55,7 +55,9 @@
     "format:check": "prettier --check \"src/**/*.{js,jsx,ts,tsx,vue}\"",
     "lint": "eslint . && prettier --check \"src/**/*.{js,jsx,ts,tsx,vue}\" && stylelint \"src/**/*.{css,scss,vue}\"",
     "lint:fix": "eslint . --fix && prettier --write \"src/**/*.{js,jsx,ts,tsx,vue}\" && stylelint \"src/**/*.{css,scss,vue}\" --fix",
-    "prepare": "husky && unh prepare"
+    "prepare": "husky && unh prepare",
+    "rebuild:skills-symlinks": "powershell -ExecutionPolicy Bypass -File scripts/setup-ai-skills-symlinks.ps1",
+    "rebuild:commands-symlinks": "powershell -ExecutionPolicy Bypass -File scripts/setup-ai-commands-symlinks.ps1"
   },
   "dependencies": {
     "@dcloudio/uni-app": "3.0.0-4080520251106001",
