@@ -3,7 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "private": true,
-  "description": "基于 Uniapp+ Vue 3 + TypeScript 的企业级移动端项目模板，集成 Wot UI、Pinia、Uni Network 与 AI 开发工具配置",
+  "description": "基于 Uniapp + Vue 3 + TypeScript 的企业级移动端项目模板，集成 Wot UI、Pinia、Uni Network 与 AI 开发工具配置",
   "license": "MIT",
   "engines": {
     "node": ">=20.19.0 <21.0.0"
