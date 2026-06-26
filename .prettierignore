@@ -1,0 +1,11 @@
+node_modules
+dist
+types/**/*
+coverage
+
+package-lock.json
+.eslintrc-auto-import.json
+types/auto-imports.d.ts
+types/components.d.ts
+types/uni-pages.d.ts
+src/uni_modules/**

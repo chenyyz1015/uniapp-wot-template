@@ -1,0 +1,15 @@
+---
+description: UniApp 代码风格与自动引入约定
+globs:
+  - "src/**/*.{vue,ts}"
+alwaysApply: false
+---
+
+# 代码风格
+
+- `<script setup lang="ts">` + scoped SCSS
+- 页面 `definePage()`；目录见 `src/pages/`
+- auto-import：vue / pinia / uni-app / composables / store / Wot UI
+- 手动 import：`api/`、`utils/`、私有子组件
+
+详见 `.claude/rules/code-style.md`。

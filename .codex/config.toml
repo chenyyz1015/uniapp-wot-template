@@ -1,0 +1,14 @@
+approval_policy = "never"
+sandbox_mode = "workspace-write"
+
+# AGENTS.md / CLAUDE.md 作为项目指令的权威来源
+project_doc_fallback_filenames = ["CLAUDE.md", "AGENTS.md"]
+
+[shell_environment_policy]
+inherit = "core"
+
+[shell_environment_policy.set]
+NODE_ENV = "development"
+
+[sandbox_workspace_write]
+network_access = true

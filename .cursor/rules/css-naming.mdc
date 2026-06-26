@@ -1,0 +1,14 @@
+---
+description: BEM + UnoCSS + rpx 样式约定
+globs:
+  - "src/**/*.{vue,scss,css}"
+alwaysApply: false
+---
+
+# CSS 命名
+
+- 模板 BEM，scoped 内 `@apply` 注入 UnoCSS
+- 移动端尺寸优先 rpx
+- Wot 主题变量与 `wot-*` 预设类
+
+详见 `.claude/rules/css-naming.md`。

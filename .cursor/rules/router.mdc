@@ -1,0 +1,15 @@
+---
+description: @wot-ui/router 与 definePage 约定
+globs:
+  - "src/pages/**/*.vue"
+  - "src/router/**/*"
+alwaysApply: false
+---
+
+# 路由
+
+- 文件路由 + `definePage()`
+- 守卫：`router/guard.ts`
+- Tab：`router.pushTab({ name })`
+
+详见 `.claude/rules/router.md`。

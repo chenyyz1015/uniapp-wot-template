@@ -1,0 +1,25 @@
+{
+  "app": {
+    "title": "Uniapp Wot Template"
+  },
+  "router": {
+    "home": "Home",
+    "profile": "Profile",
+    "login": "Login",
+    "register": "Register",
+    "403": "403",
+    "404": "404",
+    "500": "500"
+  },
+  "auth": {
+    "username": "Username",
+    "password": "Password",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "loginSuccess": "Login successful"
+  },
+  "home": {
+    "welcome": "Hello, welcome!"
+  }
+}

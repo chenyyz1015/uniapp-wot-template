@@ -1,0 +1,25 @@
+{
+  "app": {
+    "title": "Uniapp Wot Template"
+  },
+  "router": {
+    "home": "首页",
+    "profile": "我的",
+    "login": "登录",
+    "register": "注册",
+    "403": "403",
+    "404": "404",
+    "500": "500"
+  },
+  "auth": {
+    "username": "账号",
+    "password": "密码",
+    "login": "登录",
+    "register": "注册",
+    "logout": "退出登录",
+    "loginSuccess": "登录成功"
+  },
+  "home": {
+    "welcome": "Hello，welcome！！"
+  }
+}

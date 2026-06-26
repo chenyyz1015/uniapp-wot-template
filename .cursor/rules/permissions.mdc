@@ -1,0 +1,18 @@
+---
+description: 权限控制 composable 约定（多端统一）
+globs:
+  - "src/**/*.vue"
+  - "src/composables/usePermission.ts"
+alwaysApply: false
+---
+
+# 权限控制
+
+统一 `usePermission()` + `v-if`。
+
+```vue
+<wd-button v-if="hasPermission('demo:edit')">编辑</wd-button>
+<wd-button v-if="hasRole('admin')">管理员</wd-button>
+```
+
+详见 `.claude/rules/permissions.md`。

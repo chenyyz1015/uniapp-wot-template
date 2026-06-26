@@ -1,0 +1,15 @@
+---
+description: API 请求与 Uni Network 约定
+globs:
+  - "src/api/**/*"
+alwaysApply: false
+---
+
+# API 约定
+
+基于 `@uni-helper/uni-network`，详见 `.claude/rules/api-conventions.md`。
+
+- 业务 API 放 `src/api/modules/`
+- 类型放 `src/api/types/*.d.ts`
+- 401 清 Token 并跳转登录页
+- 错误提示用 `useToast()`
