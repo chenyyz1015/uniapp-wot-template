@@ -1,1 +1,1 @@
-E:/cheny/code/uniapp-wot-template/.agents/commands/review.md
+../../.agents/commands/review.md
