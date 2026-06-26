@@ -1,1 +1,1 @@
-E:/cheny/code/uniapp-wot-template/.agents/commands/fix-issue.md
+../../.agents/commands/fix-issue.md
