@@ -76,8 +76,8 @@ UniApp + Vue 3 + TypeScript 企业级移动端模板。技术栈：Wot UI、Pini
 ├── CLAUDE.md                      # Claude Code 项目指令
 ├── AGENTS.md                      # Codex / GitHub Copilot 通用项目指令
 ├── .agents/                       # commands / skills 统一管理（SSOT）
-│   ├── commands/                  review.md、fix-issue.md
-│   └── skills/                    security-review、impeccable
+│   ├── commands/
+│   └── skills/
 ├── .claude/                       # Claude Code（规则权威源）
 │   ├── settings.json
 │   ├── rules/
