@@ -32,5 +32,5 @@
     "plugins": ["@uni-helper/uni-types/volar-plugin"]
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "types/**/*.d.ts"],
-  "exclude": ["src/uni_modules/**"]
+  "exclude": ["node_modules", "dist", "src/uni_modules/**"]
 }
