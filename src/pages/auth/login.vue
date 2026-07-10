@@ -53,6 +53,10 @@ onShow(() => {
 <template>
   <view class="box-border px-4 py-6">
     <view class="mb-6">
+      <!-- 保留颜色 -->
+      <text class="i-preserve-color:vite"></text>
+      <!-- 可着色 -->
+      <text class="i-svg:home text-amber"></text>
       <text class="block text-6 font-bold wot-text-text-main">{{ t("router.login") }}</text>
     </view>
 
